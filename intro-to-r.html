@@ -145,26 +145,29 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll me-auto">
   <li class="nav-item">
-    <a class="nav-link" href="./index.html">HOME</a>
+    <a class="nav-link" href="./index.html">Home</a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link active" href="./intro-to-r.html" aria-current="page">INTRO TO R</a>
+    <a class="nav-link active" href="./intro-to-r.html" aria-current="page">Intro to R</a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./graphics-guide.html">DATA VIZ</a>
+    <a class="nav-link" href="./graphics-guide.html">Graphics Guide</a>
   </li>  
+    <li class="nav-item">
+    <a class="nav-link" href="./getting-data.html">Getting Data</a>
+  </li> 
   <li class="nav-item">
-    <a class="nav-link" href="./mapping.html">MAPPING</a>
+    <a class="nav-link" href="./web_apps.html">Web Apps</a>
   </li>  
-  <li class="nav-item">
-    <a class="nav-link" href="./getting-data.html">GETTING DATA</a>
-  </li>  
+ 
+<!-- 
   <li class="nav-item">
     <a class="nav-link" href="./optimization.html">OPTIMIZATION</a>
   </li>  
   <li class="nav-item">
     <a class="nav-link" href="./resources.html">RESOURCES</a>
   </li>  
+ -->
 </ul>
               <div id="quarto-search" class="" title="Search"></div>
           </div> <!-- /navcollapse -->
@@ -239,11 +242,11 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 <p>R boasts a strong community in the world and inside GPCOG. Please don’t hesitate to contact Abe Dailey (adailey@gpcog.org) with thoughts or questions about R.</p>
 <section id="what-is-r" class="level2">
 <h2 class="anchored" data-anchor-id="what-is-r">What is R?</h2>
-<p><img src="intro-to-r/images/r-logo.png" class="img-fluid" style="width:15.0%"></p>
+<p><img src="images/r-logo.png" class="img-fluid" style="width:15.0%"></p>
 <p><a href="https://www.r-project.org/logo/">Source</a></p>
 <p>R is a free, open-source software for statistical computing. It is known for intuitive, crisp graphics and an extensive, growing library of statistical and analytic methods. Above all, R boasts an enthusiastic community of developers, instructors, and users.</p>
 <p>The copyright and documentation for R is held by a not-for-profit organization called <a href="https://www.r-project.org/foundation/">The R Foundation</a>.</p>
-<p><img src="intro-to-r/images/r-studio-logo.png" class="img-fluid" style="width:15.0%"></p>
+<p><img src="images/r-studio-logo.png" class="img-fluid" style="width:15.0%"></p>
 <p><a href="https://en.wikipedia.org/w/index.php?curid=48590482">Source, Fair use</a></p>
 <p>RStudio is a free, open-source integrated development environment (IDE) that runs on top of R. In practice, R users almost exclusively open RStudio and rarely directly open R.</p>
 <p>RStudio is developed by a for-profit company called <a href="https://www.rstudio.com/">RStudio</a>. RStudio, the company, employs some of the R community’s most prolific, open-source developers and creates many open-source tools and trainings.</p>
@@ -311,7 +314,7 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 <span id="cb1-24"><a href="#cb1-24" aria-hidden="true" tabindex="-1"></a>             <span class="at">x =</span> <span class="st">"Number of children"</span>,</span>
 <span id="cb1-25"><a href="#cb1-25" aria-hidden="true" tabindex="-1"></a>             <span class="at">y =</span> <span class="st">"Income"</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output-display">
-<p><img src="intro-to-r/www/images/quick%20example-1.png" class="img-fluid" width="672"></p>
+<p><img src="images/quick%20example-1.png" class="img-fluid" width="672"></p>
 </div>
 </div>
 </section>
@@ -371,7 +374,7 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 <span id="cb4-10"><a href="#cb4-10" aria-hidden="true" tabindex="-1"></a>    <span class="fu">scale_y_continuous</span>(<span class="at">expand =</span> <span class="fu">c</span>(<span class="dv">0</span>, <span class="dv">0</span>), <span class="at">lim =</span> <span class="fu">c</span>(<span class="dv">0</span>, <span class="dv">800</span>)) <span class="sc">+</span></span>
 <span id="cb4-11"><a href="#cb4-11" aria-hidden="true" tabindex="-1"></a>    <span class="fu">labs</span>(<span class="at">title =</span> <span class="st">'"hprice1" data from Wooldridge'</span>) </span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output-display">
-<p><img src="intro-to-r/www/images/psid-1.png" class="img-fluid" width="672"></p>
+<p><img src="images/psid-1.png" class="img-fluid" width="672"></p>
 </div>
 </div>
 </section>
@@ -509,12 +512,12 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 </div>
 <div class="cell">
 <div class="cell-output-display">
-<p><img src="intro-to-r/www/images/xkcd%20run-1.png" class="img-fluid" width="672"></p>
+<p><img src="images/xkcd%20run-1.png" class="img-fluid" width="672"></p>
 </div>
 </div>
 <p>Packages are frequently updated, especially around the time R versions change. The easiest way to update packages is Tools &gt; Check for Package Updated in RStudio.</p>
 <p>Occasionally, two loaded packages will have functions with identical names. Any conflicts with be announced when loading packages. See how <code>filter()</code> and <code>lag()</code> from <code>library(tidyverse)</code> and <code>library(stats)</code> conflict:</p>
-<p><img src="intro-to-r/images/load-tidyverse.png" class="img-fluid"> In this case, the tidyverse functions are usually favored. If there is ever a conflict or any doubt about which function is used, use the package name and <code>::</code> to directly call the function. For example, <code>dplyr::select(apples)</code>. <code>::</code> can also be used to call a function without loading the entire package.</p>
+<p><img src="images/load-tidyverse.png" class="img-fluid"> In this case, the tidyverse functions are usually favored. If there is ever a conflict or any doubt about which function is used, use the package name and <code>::</code> to directly call the function. For example, <code>dplyr::select(apples)</code>. <code>::</code> can also be used to call a function without loading the entire package.</p>
 </section>
 <section id="cran" class="level3">
 <h3 class="anchored" data-anchor-id="cran">CRAN</h3>
@@ -558,12 +561,12 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 <li>They are the “node” of relative file paths. (more on this in a second)</li>
 </ul>
 <p>Before setting up an R Project, go to Tools &gt; Global Options and uncheck “Restore most recently opened project at startup”.</p>
-<p><img src="intro-to-r/images/restore.png" class="img-fluid" style="width:50.0%"></p>
+<p><img src="images/restore.png" class="img-fluid" style="width:50.0%"></p>
 <p>Every new analysis in R should start with an R Project. First, create a directory that holds all data, scripts, and files for the analysis. Storing files and data in a sub-directories is encouraged. For example, data can be stored in a folder called data/.</p>
 <p>Next, click “New Project…” in the top right corner.</p>
-<p><img src="intro-to-r/images/new-project.png" class="img-fluid" style="width:50.0%"></p>
+<p><img src="images/new-project.png" class="img-fluid" style="width:50.0%"></p>
 <p>When prompted, turn your recently created “Existing Directory” into a project.</p>
-<p><img src="intro-to-r/images/existing-directory.png" class="img-fluid" style="width:50.0%"></p>
+<p><img src="images/existing-directory.png" class="img-fluid" style="width:50.0%"></p>
 <p>Upon completion, the name of the R Project should now be displayed in the top right corner of RStudio where it previously displayed “Project: (None)”. Once opened, .RProj files do not need to be saved. Double-clicking .Rproj files in the directory is now the best way to open RStudio. This will allow for the concurrent use of multiple R sessions and ensure the portability of file paths. Once an RStudio project is open, scripts can be opened by double-clicking individual files in the computer directory or clicking files in the “Files” tab in the top right of RStudio.</p>
 <p>R Projects make code highly portable because of the way they handle file paths. Here are a few rules:</p>
 <section id="filepaths" class="level4">
@@ -574,7 +577,7 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 <p>This simplifies code and makes it portable because all relative filepaths will be identical on all computers. To share an analysis, simply send the entire directory to a collaborator or share it with GitHub.</p>
 <p>Here’s an example directory:</p>
 <center>
-<img src="intro-to-r/images/directory.png" class="img-fluid" style="width:50.0%">
+<img src="images/directory.png" class="img-fluid" style="width:50.0%">
 </center>
 <p>It isn’t always possible to avoid absolute file paths because of the many different ways GPCOG stores data. Avoid absolute paths when possible and be deliberate about where analyses live in relation to where data live.</p>
 <p>Finally, it’s good practice to include a README in the same directory as the .Rproj. The README should outline the purpose and the directories and can include information about how to contribute, licenses, dependencies, and acknowledgements. This <a href="https://gist.github.com/PurpleBooth/109311bb0361f32d87a2">GitHub page</a> is a good README template.</p>
@@ -685,6 +688,8 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 </section>
 <section id="bibliography-and-references" class="level2">
 <h2 class="anchored" data-anchor-id="bibliography-and-references">Bibliography and References</h2>
+<hr>
+<p>Note: This page was copied from the Urban Institute. View the <a href="https://urbaninstitute.github.io/r-at-urban/intro-to-r.html">Original Source</a>.</p>
 <hr>
 <p>Hadley Wickham (2017). tidyverse: Easily Install and Load the ‘Tidyverse’. R package version 1.2.1. https://CRAN.R-project.org/package=tidyverse</p>
 <p>Hadley Wickham and Garrett Grolemund (2017). R For Data Science http://r4ds.had.co.nz/</p>
