@@ -142,40 +142,39 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
   <span class="navbar-toggler-icon"></span>
 </button>
-          <div class="collapse navbar-collapse" id="navbarCollapse">
-            <ul class="navbar-nav navbar-nav-scroll me-auto">
+
+<div class="collapse navbar-collapse" id="navbarCollapse">
+
+<ul class="navbar-nav navbar-nav-scroll me-auto">
   <li class="nav-item">
     <a class="nav-link" href="./index.html">Home</a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./getting-data.html">Getting Data</a>
+    <a class="nav-link" href="./data-sources.html">Data Sources</a>
   </li> 
-  <li class="nav-item">
-    <a class="nav-link active" href="./intro-to-r.html" aria-current="page">Intro to R</a>
-  </li>  
-  <li class="nav-item">
-    <a class="nav-link" href="./graphics-guide.html">R Graphics Guide</a>
-  </li>  
-<!-- 
-  <li class="nav-item">
-    <a class="nav-link" href="./r-cookbook.html">R Cookbook</a>
-  </li>  
- -->
+  <li class="nav-item dropdown">
+    <a class="nav-link" href="./intro-to-r.html">R Resources</a>
+  		<div class="dropdown-content" id="rResourcesDropdown" style="color: #aaa; position: absolute; min-width: 210px;">
+    		<a href="./intro-to-r.html" class="nav-item nav-link">Intro to R</a>
+    		<a href="./getting-data.html" class="nav-item nav-link">Getting Data</a>
+    		<a href="./graphics-guide.html" class="nav-item nav-link">R Graphics Guide</a>
+    		<!-- <a href="./r-cookbook.html" class="nav-item nav-link">R Cookbook</a> -->
+  		</div>
+  </li> 
   <li class="nav-item">
     <a class="nav-link" href="./d3-gallery.html">D3 Gallery</a>
   </li>
-  <li class="nav-item">
+  <li class="nav-item dropdown">
     <a class="nav-link" href="./web-apps.html">Web Apps</a>
+  		<div class="dropdown-content" id="webAppsDropdown" style="color: #aaa; position: absolute; min-width: 210px;">
+    		<a href="./IRS-migration.html" class="nav-item nav-link">IRS Migration</a>
+    		<a href="./fiscal-impact.html" class="nav-item nav-link">Fiscal Impact</a>
+    		<a href="./workforce-estimation.html" class="nav-item nav-link">Workforce Estimation</a>
+    		<a href="./population-pyramid.html" class="nav-item nav-link">Population Estimation</a>
+  		</div>
   </li>  
-<!-- 
-  <li class="nav-item">
-    <a class="nav-link" href="./optimization.html">OPTIMIZATION</a>
-  </li>  
-  <li class="nav-item">
-    <a class="nav-link" href="./resources.html">RESOURCES</a>
-  </li>  
- -->
 </ul>
+
               <div id="quarto-search" class="" title="Search"></div>
           </div> <!-- /navcollapse -->
       </div> <!-- /container-fluid -->
